@@ -6,3 +6,4 @@ hosts: ansible-server
        tasks:
        - name: create docker image using war file
          command: docker build -t cmulbah/cmulbah/tomcat-web1 .
+	 command: apt-get update
